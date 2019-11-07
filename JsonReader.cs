@@ -6,8 +6,6 @@ using UnityEngine;
 
 public static class JsonReader
 {
-    private static string jsonString;  // json data
-
     public static T JsonParser<T>(string _filename)
     {
         string path = Application.streamingAssetsPath + "/" + _filename + ".json";
